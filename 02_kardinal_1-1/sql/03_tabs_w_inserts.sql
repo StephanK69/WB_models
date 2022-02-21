@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`servants` (
   `yrs_served` INT NOT NULL,
   `cats_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_servants_cats_idx` (`cats_id` ASC) ,
+  INDEX `fk_servants_cats_idx` (`cats_id` ASC),
   CONSTRAINT `fk_servants_cats`
     FOREIGN KEY (`cats_id`)
     REFERENCES `mydb`.`cats` (`id`)
