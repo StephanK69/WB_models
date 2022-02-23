@@ -49,7 +49,7 @@ SELECT * FROM mydb.products;
 
 /*  PURCHASES (Kaufprozesse)*/
 
--- ServantsProducts (purchases)
+-- ServantsProducts (Purchases)
 CREATE TABLE IF NOT EXISTS `mydb`.`purchases` (
   `servants_id` INT NOT NULL,
   `products_id` INT NOT NULL,
@@ -68,10 +68,10 @@ CREATE TABLE IF NOT EXISTS `mydb`.`purchases` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
--- Products: Struktur
+-- Purchases: Struktur
 DESCRIBE mydb.purchases;
 
--- Products: Inserts (Kaufprozesse : Käufer - Produkt)
+-- Purchases: Inserts (Kaufprozesse : Käufer - Produkt)
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (1, 2);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (1, 3);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (2, 1);
@@ -79,7 +79,7 @@ INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (2, 2);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (2, 3);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (2, 4);
 
--- Products: Inhalte 
+-- Purchases: Inhalte 
 SELECT * FROM mydb.purchases;
 
 
