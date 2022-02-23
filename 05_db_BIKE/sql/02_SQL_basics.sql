@@ -2,29 +2,29 @@ SHOW DATABASES;
 USE bike;
 SHOW TABLES;
 
-DESCRIBE artikel;
-SELECT * FROM artikel;
+DESCRIBE Artikel;
+SELECT * FROM Artikel;
 
-DESCRIBE auftrag;
-SELECT * FROM auftrag;
+DESCRIBE Auftrag;
+SELECT * FROM Auftrag;
 
-DESCRIBE auftragsposten;
-SELECT * FROM auftragsposten;
+DESCRIBE Auftragsposten;
+SELECT * FROM Auftragsposten;
 
-DESCRIBE kunde;
-SELECT * FROM kunde;
+DESCRIBE Kunde;
+SELECT * FROM Kunde;
 
-DESCRIBE lager;
-SELECT * FROM lager;
+DESCRIBE Lager;
+SELECT * FROM Lager;
 
-DESCRIBE lieferant;
-SELECT * FROM lieferant;
+DESCRIBE Lieferant;
+SELECT * FROM Lieferant;
 
-DESCRIBE lieferung;
-SELECT * FROM lieferung;
+DESCRIBE Lieferung;
+SELECT * FROM Lieferung;
 
-DESCRIBE personal;
-SELECT * FROM personal;
+DESCRIBE Personal;
+SELECT * FROM Personal;
 
-DESCRIBE teilestruktur;
-SELECT * FROM teilestruktur;
+DESCRIBE Teilestruktur;
+SELECT * FROM Teilestruktur;
